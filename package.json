@@ -1,0 +1,16 @@
+{
+  "name": "penton.site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jondpenton/penton.site.git",
+  "author": "Jon Penton <hey@jondpenton.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "commitlint --from HEAD~1 --to HEAD --verbose"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "husky": "^4.3.0"
+  }
+}
